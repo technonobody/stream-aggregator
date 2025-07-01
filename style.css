@@ -1,0 +1,25 @@
+body {
+  background: #101010;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+}
+#channels {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.card {
+  background: #222;
+  padding: 15px;
+  border-radius: 8px;
+  width: 200px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.card:hover {
+  background: #333;
+}
